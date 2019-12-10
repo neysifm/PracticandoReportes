@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticandoReportes", "PracticandoReportes\PracticandoReportes.csproj", "{468D06D4-86E1-4671-B071-842E014E4F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticandoReportes.Tests", "PracticandoReportes.Tests\PracticandoReportes.Tests.csproj", "{60B232E8-D1A2-4989-B0E5-D9A28857D0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{468D06D4-86E1-4671-B071-842E014E4F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468D06D4-86E1-4671-B071-842E014E4F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468D06D4-86E1-4671-B071-842E014E4F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468D06D4-86E1-4671-B071-842E014E4F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B232E8-D1A2-4989-B0E5-D9A28857D0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B232E8-D1A2-4989-B0E5-D9A28857D0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B232E8-D1A2-4989-B0E5-D9A28857D0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B232E8-D1A2-4989-B0E5-D9A28857D0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E5E9395-FFE1-46D7-B92C-391FE0C48AF6}
+	EndGlobalSection
+EndGlobal
