@@ -15,13 +15,15 @@ namespace Entidades
         public string Nombre { get; set; }
         public string Email { get; set; }
         public string Clave { get; set; }
+        public DateTime Fecha { get; set; }
 
-        public Usuario(int usuarioID, string nombre, string email, string clave)
+        public Usuario(int usuarioID, string nombre, string email, string clave, DateTime fecha)
         {
             UsuarioID = usuarioID;
             Nombre = nombre;
             Email = email;
             Clave = clave;
+            Fecha = fecha;
         }
 
         public Usuario()
@@ -30,6 +32,7 @@ namespace Entidades
             Nombre = String.Empty;
             Email = String.Empty;
             Clave = String.Empty;
+            Fecha = DateTime.Now;
         }
     }
 }

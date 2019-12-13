@@ -37,6 +37,18 @@ namespace Entidades
             page.ClientScript.RegisterStartupScript(type, "CallMyFunction", functionName, true);
         }
 
+        public static DateTime ToDatetime(this object obj)
+        {
+            DateTime.TryParse(obj.ToString(), out DateTime value);
+            return value;
+        }
+        static readonly string FECHA_FORMAT = "yyyy-MM-dd";
+
+        public static string ToFormatDate(this DateTime dateTime)
+        {
+            return dateTime.ToString(FECHA_FORMAT);
+        }
+
         public static void ClearControls(Control control, List<Type> controlsToClear)
         {
             foreach (Control c in control.Controls)
@@ -52,7 +64,6 @@ namespace Entidades
                     {
                         ((DropDownList)c).SelectedIndex = 0;
                     }
-
                 }
             }
         }

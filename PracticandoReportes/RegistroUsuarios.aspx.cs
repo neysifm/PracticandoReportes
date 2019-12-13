@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace PracticandoReportes
 {
-    public partial class _Default : Page
+    public partial class _RegistroUsuarios : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
